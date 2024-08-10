@@ -1,4 +1,4 @@
-import { NotFound } from '@myorg/shared-404';
+import { NotFound } from '@myorg/components';
 
 
 export default NotFound;
