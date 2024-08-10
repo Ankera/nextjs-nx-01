@@ -7,6 +7,11 @@ const { composePlugins, withNx } = require('@nx/next');
  * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
  **/
 const nextConfig = {
+  compress: false,
+  webpack: (config, { dev }) => {
+    config.optimization.minimize = false;
+    return config;
+  },
   nx: {
     // Set this to true if you would like to use SVGR
     // See: https://github.com/gregberge/svgr
