@@ -1,8 +1,11 @@
 import Link from 'next/link';
+import { Header, Footer } from '@myorg/components';
 
 export default function Home() {
   return (
     <div>
+      <Header title="hello 这是首页" />
+
       <h1>Welcome to Home Page</h1>
       <p>This is the home page.</p>
       <nav>
@@ -18,6 +21,8 @@ export default function Home() {
           </li>
         </ul>
       </nav>
+
+      <Footer />
     </div>
   );
 }

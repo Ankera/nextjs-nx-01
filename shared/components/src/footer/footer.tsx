@@ -1,7 +1,9 @@
+import './footer.css'
+
 export default function Footer() {
   return (
-    <div>
-      <h1>这是公共尾部位置</h1>
+    <div className="footer">
+      <div className='footer-inner'>这是公共尾部位置</div>
     </div>
   );
 }
