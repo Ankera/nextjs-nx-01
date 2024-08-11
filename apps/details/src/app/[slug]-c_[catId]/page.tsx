@@ -1,4 +1,5 @@
 import { Header, Footer } from '@myorg/components';
+import Cache from './cache';
 
 type PageProps = {
   params: {
@@ -20,6 +21,8 @@ export default function DynamicPage({ params }: PageProps) {
       <pre>
         {JSON.stringify(params)}
       </pre>
+
+      <Cache />
       <Footer />
     </div>
   );

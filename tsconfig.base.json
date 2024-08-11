@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/components": ["shared/components/src/index.ts"]
+      "@myorg/components": ["shared/components/src/index.ts"],
+      "@myorg/service": ["shared/service/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
